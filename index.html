@@ -13,24 +13,27 @@
     <div class="wraped overflow-x-hidden lg:overflow-y-hidden lg:flex">
 
     <!-- Home -->
-    <section class="flex-none w-screen h-screen " id="home">
+    <section class="flex-none w-screen h-2/4 sm:h-screen " id="home">
         <div class="flex flex-col-reverse lg:flex-row">
             <div class="bg-white flex w-full h-1/2 snap-mandatory lg:w-1/4">
                 <div class=" lg:container flex mt-10 lg:mt-20 lg:block items-center justify-center"> 
                     <div class="w-1/2 lg:w-full relative bottom-16 lg:top-10">
-                        <img class="w-40 h-40 rounded-full mx-auto border-8 border-main-color hover:scale-110" src="./src/img/abe.png" alt="" width="384" height="512">
-                         <p class=" cursor-context-menu text-center mt-5 font-Roboto text-3xl font-bold">Hello, I'm <span class="text-main-color">ABE</span>gail</p>
-                         <div class=" media mt-10 text-3xl text-center flex items-center justify-center">
+                        <img class=" w-40 h-40 md:w-40 md:h-40 rounded-full mx-auto border-8 border-main-color hover:scale-110" src="./src/img/abe.png" alt="" width="384" height="512">
+                         <p class=" cursor-context-menu text-center mt:2 sm:mt-5 font-Roboto text-xl sm:text-3xl font-bold">Hello, I'm <span class="text-main-color">ABE</span>gail</p>
+                         <div class=" media mt-1 sm:mt-10 text-3xl text-center flex items-center justify-center">
                             <div class="hover:scale-125"><a  href="https://www.facebook.com/Damnitsabe" target="_blank"><i class="fab fa-facebook-f"></i></a></div> 
                             <div class="hover:scale-125 ml-8"><a  href="https://www.instagram.com/Damnitsabe/?fbclid=IwAR1F7eRRSPqrNMZDzpjeBFSQnrLYIaWBJomuFeAN1RavD0GcDk-ZCv_fL8I" target="_blank"><i class="fab fa-instagram"></i></a></div> 
                             <div class="hover:scale-125 ml-8"><a  href="https://twitter.com/Damnitsabe" target="_blank"><i class="fab fa-twitter"></i></a></div> 
                          </div>
     
                    </div>
-                  <div class="w-1/2 lg:w-full mr-20 lg:mr-0 relative bottom-16 lg:lg:top-10">
-                        <p class="lg:mt-20 font-Poppins text-2xl">Looking for a Marketing Professional that can help grow your business?</p>
-                        <div class="z-10 bg-main-color w-48 flex justify-center items-center h-14 text-white text-2xl font-Roboto 
-                        lg:relative left-56 mt-5 rounded-full">
+                  <div class="w-1/2 lg:w-full md:mr-10 lg:mr-0 relative bottom-16 lg:lg:top-10">
+                        <p class="mt-6 sm:mt-5 lg:mt-20 font-Poppins text-base md:text-2xl">Looking for a Marketing Professional that can help grow your business?</p>
+                        
+                        <div class="flex items-center gap-5">
+                        <div class="z-10 bg-main-color w-24 sm:w-48 flex justify-center items-center h-14 text-white text-xs sm:text-2xl font-Roboto 
+                        lg:relative left-56 mt-5 sm:rounded-full">
+                        
                         
                         <img class="hidden lg:block relative right-20" src="./src/img/arrow-contact-b.png" alt="" srcset="">
                         <a href="#contact">
@@ -40,13 +43,15 @@
                         </a>
                         
                     </div>
-                  </div>
+                    <div class="sm:hidden bg-white border-4 mt-5 border-main-color w-24 text-center text-xs p-4 text-main-color">RESUME</div>
+                    </div>
+                </div>
                 </div>
             </div>
 
             <div class="bg-main-color w-full h-1/2 lg:h-screen lg:w-3/4">
 
-                <div class="mt-5 w-full justify-end items-end flex pr-10">
+                <div class="hidden mt-5 w-full justify-end items-end sm:flex pr-10">
                     <div class="bg-white p-1 w-24 h-10 font-Roboto text-xl 
                     rounded-tr-xl flex items-center justify-center rounded-bl-xl hover:scale-110 cursor-pointer">
                     <p>Resume</p>
@@ -96,13 +101,13 @@
                  <div class="flex flex-col items-center lg:items-start z-10 relative">
                     
                     <img class="hidden lg:block lg:relative w-60 left-12 lg:-left-10 top-5" src="./src/img/abe.jpg" alt="" width="384" height="512">
-                    <h2 class="text-black text-center lg:hidden text-5xl font-Poppins my-10 font-bold">ABOUT<span class="text-main-color"> ABE</span></h2>
+                    <h2 class="text-black text-center lg:hidden text-5xl font-Poppins my-5 lg:my-10 font-bold">ABOUT<span class="text-main-color"> ABE</span></h2>
                     
-                    <h2 class="text-black lg:bg-white w-2/4 lg:w-3/4 text-center font-Poppins text-xl lg:relative left-56 lg:left-36 lg:bottom-52">My name is Abegail, and I’m a Marketing Professional based in Gingoog City, Philippines.</h2>
+                    <h2 class="text-black lg:bg-white w-2/4 lg:w-3/4 text-center font-Poppins sm:text-xl lg:relative left-56 lg:left-36 lg:bottom-52">My name is Abegail, and I’m a Marketing Professional based in Gingoog City, Philippines.</h2>
                 </div>
                 <!-- Skills -->
                
-                <div class="font-Roboto text-2xl relative bottom-24 mt-48 lg:-mt-2 z-20 text-center italic cursor-pointer text-black uppercase flex flex-wrap items-center justify-center gap-5 w-full">
+                <div class="font-Roboto sm:text-xl md:text-2xl relative bottom-24 mt-28 lg:-mt-2 z-20 text-center italic cursor-pointer text-black uppercase flex flex-wrap items-center justify-center gap-5 w-full">
                     <span class="bg-main-color text-white p-1">Copywriting</span>
                     <span class="">Advertising</span>
                     <span class="bg-main-color text-white p-1">SEO</span> 
@@ -116,20 +121,20 @@
                     <!-- Industries Imgs -->
                     <div class="flex mt-5 gap-10 justify-center cursor-default relative">
                         <div>
-                            <img class="w-32 h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/market.jpg" alt="Industries">
-                            <p class="text-center font-Poppins text-lg">Retail Services</p>
+                            <img class="w-28 h-28 sm:w-32 sm:h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/market.jpg" alt="Industries">
+                            <p class="text-center font-Poppins text-xs sm:text-base md:text-lg">Retail Services</p>
                         </div>
                         <div> 
-                            <img class="w-32 h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/resto.jpg" alt="Industries">
-                            <p class="text-center font-Poppins text-lg">Food Services</p> 
+                            <img class="w-28 h-28 sm:w-32 sm:h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/resto.jpg" alt="Industries">
+                            <p class="text-center font-Poppins text-xs sm:text-base md:text-lg">Food Services</p> 
                         </div>
                         <div>
-                            <img class="w-32 h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/health.jpg" alt="Industries">
-                            <p class="text-center font-Poppins text-lg">Health & <br>Beauty</p>
+                            <img class="w-28 h-28 sm:w-32 sm:h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/health.jpg" alt="Industries">
+                            <p class="text-center font-Poppins  text-xs sm:text-base md:text-lg">Health & <br>Beauty</p>
                         </div>
                         <div>
-                            <img class="w-32 h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/automotive.jpg" alt="Industries">
-                            <p class="text-center font-Poppins text-lg">Automotive</p>
+                            <img class="w-28 h-28 sm:w-32 sm:h-32 rounded-full hover:-translate-y-5 hover:scale-110" src="./src/img/automotive.jpg" alt="Industries">
+                            <p class="text-center font-Poppins text-xs sm:text-base md:text-lg">Automotive</p>
                         </div>
                     </div>
                     <!-- NEXT -->
